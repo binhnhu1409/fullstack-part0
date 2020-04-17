@@ -1,0 +1,13 @@
+title Exercise 0.6: SPA new note
+
+Browser->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over Server: 
+Content-type header tells 
+Server the data type is JSon
+end note
+
+Server-->Browser: Statuscode 201 created
+
+
+

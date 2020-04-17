@@ -1,0 +1,13 @@
+title Exercise 0.5: SPA
+
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+Server-->Browser: HTML page 
+
+note over Browser: 
+browser starts executing 
+js-code to get JSON data
+end note
+
+
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+Server-->Browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
